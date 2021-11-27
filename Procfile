@@ -1,0 +1,1 @@
+web: gunicorn oblako.wsgi --log-file -
