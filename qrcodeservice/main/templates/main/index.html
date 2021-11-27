@@ -7,7 +7,7 @@
     <div class="alert alert-warning mt-2">
         <h3>{{ el.qr_name }}</h3>
         <p>{{ el.qr_link }}</p>
-        <p>{{ el.qr_img }}</p>
+        <img src="{{media_url}}{{ el.qr_img.url }}">
     </div>
 {% endfor %}
 {% else %}
