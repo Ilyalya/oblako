@@ -1,1 +1,1 @@
-web: gunicorn oblacko_project.wsgi --log-file -
+web: gunicorn qrcodeservice.wsgi --log-file -
