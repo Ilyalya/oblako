@@ -1,1 +1,1 @@
-web: gunicorn oblako.wsgi --log-file -
+web: gunicorn qrcodeservice.wsgi --log-file -
